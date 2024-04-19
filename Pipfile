@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dbt-duckdb = "*"
+dagster = "*"
+dagster-dbt = "*"
+dagster-duckdb = "*"
+pandas = "*"
+pyarrow = "*"
+isort = "*"
+black = "*"
+dagster-webserver = "*"
+plotly = "*"
+dagster-slack = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
